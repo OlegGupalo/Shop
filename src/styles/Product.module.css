@@ -1,0 +1,148 @@
+.product {
+    display: flex;
+    max-width: calc(100% - 324px);
+    padding: 24px;
+    column-gap: 32px;
+    flex-grow: 1;
+    height: 471px;
+}
+
+.images {
+    display: flex;
+    gap: 10px;
+}
+
+.current {
+    height: 375px;
+    width: 375px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 6px;
+}
+
+.images-list {
+   display: flex;
+   flex-direction: column;
+   gap: 10px; 
+}
+
+.image {
+    width: 90px;
+    height: 90px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.price {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 24px;
+    margin: 10px 0 20px 0;
+}
+
+.color,
+.sizes {
+  font-size: 14px;
+  line-height: 17px;
+  text-transform: capitalize;
+  display: flex;
+  column-gap: 16px;
+  align-items: center;
+}
+
+.color span,
+.sizes span {
+  font-size: 14px;
+  line-height: 17px;
+  color: var(--dark-sea);
+}
+
+.sizes {
+    margin: 16px 0;
+}
+
+.sizing {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+}
+
+.sizing span {
+    padding: 4px 8px;
+    color: var(--white);
+    cursor: pointer;
+    font-weight: bold;
+    background-color: var(--bg);
+    border-radius: 8px;
+    transition: all 0.2s ease;
+
+}
+
+.sizing span:hover {
+    background-color: var(--dark-sea);
+}
+
+.description {
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--grey);
+    line-height: 15px;
+    width: 320px;
+}
+
+.actions {
+  margin-top: 20px;
+  display: flex;
+  column-gap: 10px;
+}
+
+.cart {
+    background-color: var(--violet);
+}
+
+.actions button {
+    padding: 7px 15px;
+    border-radius: 6px;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.favorite {
+    background: var(--dark-sea);
+    border-radius: 6px;
+}
+
+.favorite:hover {
+    background: #7a8690;
+}
+
+.cart:disabled {
+    cursor: not-allowed;
+    background: var(--bg);
+}
+
+.bottom {
+    display: flex;
+    margin-top: auto;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 12px;
+    line-height: 12px;
+    color: var(--dark-sea);
+}
+.link {
+    color: var(--white);
+}

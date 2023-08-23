@@ -1,0 +1,118 @@
+.cart {
+    height: 473px;
+    flex-grow: 1;
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    width: calc(100% - 324px);
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+}
+
+.item {
+    height: 70px;
+    background: var(--bg);
+    border-radius: 8px;
+    padding: 12px 14px;
+    display: grid;
+    width: 100%;
+    grid-template-columns: 100px 2fr 1fr 1.5fr 1fr 16px;
+    align-items: center;
+}
+
+.image {
+    background-position: top;
+    background-size: cover;
+    border-radius: 6px;
+    height: 100%;
+    background-repeat: no-repeat;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    row-gap: 8px;
+    margin-left: 15px;   
+}
+
+.title {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.category {
+    font-size: 10px;
+}
+
+.edit {
+    display: flex;
+    align-items: center;
+}
+
+.icon {
+    background: var(--dark-sea);
+    border-radius: 6px;
+    width: 25px;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.icon svg {
+    width: 17px;
+    height: 17px;
+}
+
+.icon path {
+    stroke: rgba(255, 255, 255, 0.5);
+}
+
+.icon:hover {
+    background: var(--violet);
+    stroke: rgba(255, 255, 255, 1);
+}
+
+
+.quantity {
+    margin: 0px 15px;
+}
+
+.total {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--grey);
+}
+
+.total span {
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 24px;
+}
+
+.close {
+    cursor: pointer;
+}
+
+.close svg {
+    width: 16px;
+    height: 16px;
+}
+
+.close path {
+    stroke: rgba(255, 255, 255, 0.5);
+}
+
+.actions {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

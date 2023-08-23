@@ -1,0 +1,18 @@
+.footer {
+    background-color: #181818;
+    color: #828b90;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 15px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.socials a:nth-child(1n) {
+    margin-left: 15px;
+}
+
+.icon:hover {
+    fill: #828b90;
+    transition: all 0.5s ease;
+}

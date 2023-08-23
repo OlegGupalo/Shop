@@ -1,0 +1,43 @@
+.sidebar {
+    height: 423px;
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    background-color: #181818;
+    padding: 24px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    margin: 0px 0px 15px 0px;
+    box-sizing: content-box;
+}
+
+.title {
+    font-weight: 600;
+    line-height: 20px;
+    text-transform: uppercase;
+  }
+  
+  .menu {
+    list-style: none;
+    padding: 0;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 12px;
+  }
+  
+  .link {
+    color: var(--dark-sea); 
+    font-size: 14px;
+    line-height: 17px;
+    text-transform: capitalize;
+  }
+  
+  .link:hover {
+    color: var(--white);
+  }
+  
+  .footer {
+    margin-top: auto;
+    display: flex;
+    justify-content: space-between;
+  }

@@ -1,0 +1,136 @@
+.home {
+    position: relative;
+    flex-grow: 1;
+    height: 471px;
+}
+
+.button {
+  background-color: #6c3eb8;
+  padding: 10px 20px;
+  font-weight: bold;
+}
+
+.title {
+    font-weight: 900;
+    font-size: 119px;
+    line-height: 145px;
+    text-transform: uppercase;
+    color: #212123;
+    text-align: center;
+  }
+  
+  .product {
+    position: relative;
+    padding-left: 42px;
+    display: flex;
+    align-items: stretch;
+    margin-top: 9px;
+  }
+  
+  .subtitle {
+    line-height: 20px;
+    text-transform: uppercase;
+    color: var(--sea);
+  }
+  
+  .head {
+    font-weight: 700;
+    font-size: 42px;
+    line-height: 51px;
+    text-transform: uppercase;
+    color: #f6f6f7;
+    max-width: 500px;
+    margin: 10px 0 24px 0;
+  }
+  
+.image {
+    position: relative;
+    flex-grow: 1;
+    height: 250px;
+}
+  
+.image img {
+  position: absolute;
+  bottom: -15%;
+  right: 10%;
+  max-width: unset;
+}
+  
+.banner {
+  display: flex;
+  width: 100%;
+  height: 570px;
+  margin-bottom: 15px;
+}
+
+.left {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  z-index: 2;
+}
+
+.left:before,
+.left:after {
+  content: "";
+  position: absolute;
+  display: block;
+}
+
+.left:before {
+  width: 204px;
+  height: 170px;
+  right: -55px;
+  bottom: -10px;
+  transform: scaleX(-1);
+  background: url(../images/sneakers.png) no-repeat center/contain;
+}
+
+.left:after {
+  width: 204px;
+  height: 170px;
+  left: 30px;
+  bottom: 10px;
+  transform: scaleX(-1);
+  background: url(../images/laptop.png) no-repeat center/contain;
+}
+
+.right {
+  width: 50%;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content {
+  font-size: 50px;
+  font-weight: 100;
+  color: var(--violet);
+  text-transform: uppercase;
+  letter-spacing: 10px;
+}
+
+.content span {
+  display: block;
+  text-align: center;
+  font-size: 120px;
+  font-weight: 100;
+}
+
+.more {
+  background-color: var(--violet);
+  padding: 12px 30px;
+  border-radius: 20px;
+  margin-top: 27px;
+  font-weight: bold;
+}
+
+.right p {
+  text-align: center;
+  margin-top: calc(100% - 110px);
+  font-weight: bold;
+  font-size: 20px;
+}

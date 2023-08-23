@@ -1,0 +1,86 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    color: whitesmoke;
+    background-color: #212023;
+    color: 12px;
+}
+
+
+input,
+button {
+  border: none;
+  background: none;
+  outline: none;
+  color: #fff;
+  font-size: 16px;
+  font-family: 'Montserrat', 'Roboto', sans-serif;
+}
+
+button {
+    background: var(--violet-dark) !important;
+    border-radius: 6px;
+    padding: 9px 20px;
+    font-weight: 600;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background: var(--violet);
+}
+
+* {
+    box-sizing: border-box;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  /* display: none; <- Crashes Chrome on hover */
+  -webkit-appearance: none;
+  margin: 0; /* <-- Apparently some margin are still there even though it's hidden */
+}
+
+a {
+    text-decoration: none;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 25px;
+}
+
+span {
+    font-weight: 400;
+    font-size: 12px;
+}
+
+.app {
+    width: 1274px;
+    margin: 0 auto;
+}
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+section {
+    background: #191919;
+    border-radius: 6px;
+}
+
+footer {
+    background: #191919;
+    border-radius: 6px;
+}
+
+button {
+    border: none;
+    background: none;
+    outline: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: Montserrat, Roboto, sans-serif;
+    cursor: pointer;
+  }
